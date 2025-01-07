@@ -37,17 +37,6 @@ Features are computed from cell nucleus characteristics:
 - Symmetry
 - Fractal dimension
 
-## Requirements
-
-```
-numpy==1.21.5
-pandas==1.4.4
-matplotlib==3.5.2
-seaborn==0.11.2
-scikit-learn==1.0.2
-xgboost==1.5.0
-```
-
 ## Installation
 
 1. Clone the repository:
@@ -56,9 +45,14 @@ xgboost==1.5.0
    cd Breast_Cancer_Wisconsin_Diagnostic
    ```
 
-2. Install required packages:
+2. Install required packages using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+   ```
+
+   Or if you're using Anaconda:
+   ```bash
+   conda install numpy pandas matplotlib seaborn scikit-learn xgboost
    ```
 
 ## Usage
@@ -78,10 +72,7 @@ xgboost==1.5.0
 
 ```
 ├── Breast_Cancer_Wisconsin_Diagnostic.ipynb
-├── README.md
-├── requirements.txt
-└── data/
-    └── breast_cancer_data.csv
+└── README.md
 ```
 
 ## Model Performance
